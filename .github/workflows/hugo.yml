@@ -2,8 +2,7 @@ name: hugo
 
 on:
   push:
-    branches:
-      - master  # Set a branch name to trigger deployment
+    branches: main # Set a branch name to trigger deployment
   pull_request:
 
 jobs:
