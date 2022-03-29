@@ -1,0 +1,153 @@
+baseURL = "https://marawan-mogeb.github.io/"
+languageCode = "en-us"
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = "marawan-mogeb.github.io"
+    title = "Marawan Mogeb Elrahman"
+    author = "Marawan Mogeb Elrahman"
+    # description = "Passionate High Schooler"
+    # copyright = "All rights reserved"
+    theme = "dark" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Marawan Mogeb Elrahman"
+        photo = "img/propic.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/marawan-mogeb-elrahman-0b21381b8/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/marawan-mogeb"
+        title = "GitHub"
+		
+		[[params.social.list]]
+        icon = "ai ai-researchgate"
+        url = "https://www.researchgate.net/profile/Marawan-Foud"
+        title = "ResearchGate"		
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "High School Deploma"
+        college = "Luxor STEM School"
+        dates = "2019 - 2022"
+        # thesis_title = "Dyanmic Hydroptic TEG"
+        # thesis_link = "https://www.researchgate.net/publication/358210845_Dynamic_Hydroptic_Thermoelectric_Generation"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Arabic"
+        level = "Native"
+				
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+				
+        [[params.language.list]]
+        language = "German"
+        level = "Basic"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Chess"
+		
+        [[params.hobbies.list]]
+        interest = "Video Games"
+		
+        [[params.hobbies.list]]
+        interest = "Anime"
+		
+        [[params.hobbies.list]]
+        interest = "Volleyball"
+		
+    [params.aboutme]
+        # description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Chief Executive Officer"
+        dates = "Aug 2021 - *Present*"
+		link = "https://www.facebook.com/spaceappsLuxor/"
+        company = "NASA Space Apps Luxor"
+
+        [[params.jobs.list]]
+        position = "Vice Head of Information Technology"
+        dates = "May 2021 - *Present*"
+		link = "https://www.facebook.com/nasasharkya/"
+        company = "NASA Space Apps Sharkya"
+        # details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+        [[params.jobs.list]]
+        position = "Co-Founder"
+        dates = "May 2020 - *Present*"
+		link = "https://stemsguide.wordpress.com/"
+        company = "STEMs Guide"
+
+        [[params.jobs.list]]
+        position = "Head Of Information Technology"
+        dates = "Sep 2021 - Feb 2022"
+		link = "https://www.facebook.com/TEDxQena/"
+        company = "TEDxYouth Qena STEM"
+
+        [[params.jobs.list]]
+        position = "Vice Head of IT"
+        dates = "Apr 2021 - Jan 2022"
+		link = "https://www.facebook.com/TEDxYouth-Luxor-STEM-109341737931140/"
+        company = "TEDxYouth Luxor STEM"
+
+        [[params.jobs.list]]
+        position = "Organizer"
+        dates = "Nov 2019"
+        company = "ISEF"
+
+    # Projects section
+    [params.projects]
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Awesome Project 1"
+        url = "#"
+        description = "Description of the *awesome* project 1"
+		
+	[[params.projects.list]]
+        title = "Awesome Project 2"
+        url = "#"
+        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Front-end"
+        skillrating = 93 # out of 100
+
+        [[params.skills.list]]
+        skill = "Marketing"
+        skillrating = 70
+
+        [[params.skills.list]]
+        skill = "Project Management"
+        skillrating = 60
