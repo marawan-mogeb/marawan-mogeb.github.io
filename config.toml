@@ -122,19 +122,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "Nov 2019"
         company = "ISEF"
 
-    # Projects section
-    [params.projects]
-        title = "Projects"
+    # # Projects section
+    # [params.projects]
+    #     title = "Projects"
 
-        [[params.projects.list]]
-        title = "Awesome Project 1"
-        url = "#"
-        description = "Description of the *awesome* project 1"
+        # [[params.projects.list]]
+        # title = "Awesome Project 1"
+        # url = "#"
+        # description = "Description of the *awesome* project 1"
 		
-	[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	# [[params.projects.list]]
+        # title = "Awesome Project 2"
+        # url = "#"
+        # description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
     # Skills section
     [params.skills]
